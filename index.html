@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Burst</title>
+    <link rel="icon" type="image/svg+xml" href="/images/logo.png" />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- DaisyUI With Tailwind Link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Boxicons Link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+     <!-- Header Part Start Here -->
+     <header class="mx-5 md:mx-28">
+        <nav>
+            <div class="navbar bg-[#F85559] rounded-[60px] py-5 my-5 md:my-10">
+                <div class="pl-5">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost md:hidden lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu bg-[#F85559] menu-sm text-white dropdown-content mt-3 z-[1] p-2 text-xl w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu text-white menu-horizontal px-1 text-xl">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+                <div class="mx-auto">
+                    <img src="/images/logo.png" alt="">
+                    <a class="text-3xl ml-4 normal-case font-bold text-white">Fruit Burst</a>
+                </div>
+                <div class="form-control hidden md:block pr-5">
+                    <input type="text" placeholder="Search"
+                        class="input rounded-[60px] input-bordered w-24 md:w-auto" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header Part End Here -->
+</body>
+</html>
